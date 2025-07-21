@@ -1,4 +1,4 @@
-import ResCard from './Rescard';
+import ResCard from './ResCard';
 import {resObj} from '../../utils/constants';
 import {useState} from "react";
 
