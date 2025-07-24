@@ -55,10 +55,55 @@ img{
     height: 50%;
 }
 .filter-btn{
+    padding: 9px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 3px solid black;
+    font-style: italic;
+}
+
+.filter-btn:hover{
+    cursor: pointer;
+    border: 1px solid black;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+
+.shimmer-container{
+    display: grid   ;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+    justify-content: space-between;
+    padding: 20px;
+}
+.shimmer-card{
+    width: 220px;
+    height:350px;
+    border: 1px solid black;
+    padding: 6px;
+    margin: 10px;
+    background-color: #f0f0f0;
+}
+
+.loginbtn{
     padding: 10px 20px;
     margin: 10px;
     cursor: pointer;
     border-radius: 10px;
     border: 3px solid black;
     font-style: italic;
+}
+.loginbtn:hover{
+    cursor: pointer;
+    border: 1px solid black;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+.filter{
+    display: flex;
+    flex-direction: row;
+}
+.search {
+    margin-left: 10px;
+    margin-right: 20px;
 }
